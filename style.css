@@ -1,0 +1,31 @@
+body {
+	display: grid;
+	place-content: center;
+	background-color: #eee;
+}
+
+li {
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-radius: 15px;
+	background-color: white;
+	margin-bottom: 7px;
+}
+
+ul {
+	padding: 0;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+.main {
+	margin-top: 15vh;
+}
+
+
